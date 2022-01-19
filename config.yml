@@ -1,0 +1,5 @@
+# Language of messages. At the moment there is only "it" and "en".
+Locale: en
+# The duration, in seconds, of the cooldown that players will have to wait before using a command again.
+# Set to 0 to disable the cooldown.
+Command cooldown: 0

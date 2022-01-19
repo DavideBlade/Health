@@ -1,0 +1,36 @@
+# Usa & per i colori. La lista dei colori può essere trovata qui: http://goo.gl/VCscSk
+Healme successful: '&b&lSei stato curato.'
+Feedme successful: '&b&lSei stato saziato.'
+# Quando un comando può essere eseguito solo da giocatori.
+Command only for player: '&cQuesto comando puo'' essere usato solo dai giocatori.'
+# Quando un comando può essere eseguito solo in modalità sopravvivenza.
+Required survival: '&c&lDevi essere in modalita'' sopravvivenza per usare questo comando.'
+# %number verrà sostituito con il numero delle cotolette o dei cuori impostati.
+Hearts successful: '&b&lCuori impostati a %number.'
+Cutlets successful: '&b&lCotolette impostate a %number.'
+Regen successful: '&b&lEffetto di rigenerazione impostato per 8 secondi.'
+Number between 1-10: '&c&lIl numero deve essere compreso fra 1 e 10!'
+# %player verrà sostituito con il nome del giocatore.
+Hearts others successful: '&b&lI cuori di %player sono stati impostati a %number.'
+Cutlets others successful: '&b&lLe cotolette di %player sono state impostate a %number.'
+Regen others successful: '&b&lL''effetto di rigenerazione e'' stato impostato per %player.'
+Hearts by other: '&b&lI tuoi cuori sono stati impostati a %number da %player.'
+Cutlets by other: '&b&lLe tue cotolette sono state impostate a %number da %player.'
+Regen by other: '&b&lHai ricevuto l''effetto di rigenerazione, impostato da %player.'
+Hearts usage: '&c&lUsa /hearts <cuori> [giocatore].'
+Cutlets usage: '&c&lUsa /cutlets <cotolette> [giocatore].'
+Player not in survival: '&c&l%player deve essere in modalita'' sopravvivenza!'
+# Quando è necessario specificare un giocatore.
+Select player: '&c&lDevi specificare un giocatore.'
+# Quando il giocatore non è online.
+Player not found: '&c&l%player non e'' online!'
+# Quando un giocatore non inserisce un numero intero.
+Only number: '&c&lIl valore da impostare deve essere espresso in numeri interi!'
+# Quando un giocatore non ha il permesso.
+No permission: '&c&lNon hai il permesso per farlo.'
+# Quando il cooldown non è ancora finito.
+# %time è il tempo rimanente nel cooldown.
+# %type cambia la parola al plurale o al singolare in base ai secondi rimanenti nel cooldown (vedi le voci "Seconds" e "Second").
+Cooldown not finished: '&cDevi aspettare altri %time %type prima di poter riutilizzare un comando.'
+Second: 'secondo'
+Seconds: 'secondi'

@@ -1,0 +1,71 @@
+name: Health
+version: 2.6 beta
+main: com.gmail.davideblade99.health.Health
+author: DavideBlade
+description: Care, feed and set hearts and cutlets to players.
+load: POSTWORLD
+#TODO website: https://www.spigotmc.org/resources/health.16045/
+database: false
+
+commands:
+  healme:
+    usage: /<command>
+    description: Regenerate all hearts.
+  feedme:
+    usage: /<command>
+    description: Regenerate all cutlets.
+  hearts:
+    usage: /<command> [hearts to be set] [player]
+    description: Set hearts of other players.
+  cutlets:
+    usage: /<command> [cutlets to be set] [player]
+    description: Set cutlets of other players.
+  health:
+    usage: /<command> [help]
+    description: Plugin information.
+  regen:
+    usage: /<command> [player]
+    description: Set regen effect for 8 seconds.
+
+permissions:
+  health.*:
+    description: Gives access to all Health's commands.
+    children:
+      health.healme: true
+      health.feedme: true
+      health.hearts: true
+      health.cutlets: true
+      health.regen: true
+      health.hearts.others: true
+      health.cutlets.others: true
+      health.regen.others: true
+  health.healme:
+    description: Gives access to /healme command.
+    default: op
+  health.feedme:
+    description: Gives access to /feedme command.
+    default: op
+  health.hearts:
+    description: Gives access to /hearts command.
+    default: op
+  health.hearts.others:
+    description: Allows setting hearts to other players with the command /hearts.
+    default: op
+    children:
+      health.hearts: true
+  health.cutlets:
+    description: Gives access to /cutlets command.
+    default: op
+  health.cutlets.others:
+    description: Allows setting cutlets to other players with the command /cutlets.
+    default: op
+    children:
+      health.cutlets: true
+  health.regen:
+    description: Gives access to /regen command.
+    default: op
+  health.regen.others:
+    description: Allows setting regen effect to other players with the command /regen.
+    default: op
+    children:
+      health.regen: true

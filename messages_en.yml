@@ -1,0 +1,36 @@
+# Use & for color codes. List of colors can be found here: http://goo.gl/VCscSk
+Healme successful: '&b&lYou have been healed.'
+Feedme successful: '&b&lYou have been satiated.'
+# When a command can only be executed by players.
+Command only for player: '&cThis command can only be used by players.'
+# When a command can only be executed in survival mode.
+Required survival: '&c&lYou must be in survival mode to use this command.'
+# %number will be replaced with the number of cutlets or hearts set.
+Hearts successful: '&b&lHearts set to %number.'
+Cutlets successful: '&b&lCutlets set to %number.'
+Regen successful: '&b&lRegeneration effect set for 8 seconds.'
+Number between 1-10: '&c&lThe number must be between 1 and 10!'
+# %player will be replaced with the player's name.
+Hearts others successful: '&b&lThe hearts of %player have been set to %number.'
+Cutlets others successful: '&b&lThe cutlets of %player have been set to %number.'
+Regen others successful: '&b&lThe regeneration effect has been set for %player.'
+Hearts by other: '&b&lYour hearts have been set to %number by %player.'
+Cutlets by other: '&b&lYour cutlets have been set to %number by %player.'
+Regen by other: '&b&lYou have received the regeneration effect, set by %player.'
+Hearts usage: '&c&lUse /hearts <hearts> [player].'
+Cutlets usage: '&c&lUse /cutlets <cutlets> [player].'
+Player not in survival: '&c&l%player must be in survival mode!'
+# When it is required to specify a player.
+Select player: '&c&lYou must enter a target.'
+# When the player isn't online.
+Player not found: '&c&l%player is not online!'
+# When the player doesn't enter an integer number.
+Only number: '&c&lThe value to be set must be expressed in integers numbers!'
+# When a player doesn't have the permission.
+No permission: '&c&lYou don''t have permission to do that.'
+# When the cooldown is not yet over.
+# %time is the remaining time in the cooldown.
+# %type changes the word to plural or singular depending on the duration of the cooldown (see "Seconds" and "Second").
+Cooldown not finished: '&cYou have to wait for %time more %type before you can reuse a command.'
+Second: 'second'
+Seconds: 'seconds'
