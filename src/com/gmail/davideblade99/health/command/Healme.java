@@ -38,7 +38,7 @@ public final class Healme extends CommandFramework {
         }
         if (!PlayerManager.isCooldownExpired(player)) {
             final long remainingTime = PlayerManager.getRemainingTime(player);
-            final String word = remainingTime == 1 ? plugin.getMessage("Second") : plugin.getMessage("Seconds");
+            final String word = MessageUtil.plural(remainingTime, plugin.getMessage("Second"), plugin.getMessage("Seconds"));
 
             MessageUtil.sendChatMessage(player, plugin.getMessage("Cooldown not finished").replace("%time", Long.toString(remainingTime)).replace("%type", word));
             return true;

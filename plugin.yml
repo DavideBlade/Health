@@ -1,10 +1,10 @@
 name: Health
-version: 2.6 beta
+version: 2.6.1 beta
 main: com.gmail.davideblade99.health.Health
 author: DavideBlade
 description: Care, feed and set hearts and cutlets to players.
 load: POSTWORLD
-#TODO website: https://www.spigotmc.org/resources/health.16045/
+website: https://www.spigotmc.org/resources/health.99340/
 database: false
 
 commands:

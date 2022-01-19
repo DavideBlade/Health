@@ -30,14 +30,13 @@ public final class Health extends JavaPlugin {
         instance = this;
 
         final String pluginVersion = getDescription().getVersion();
-        /*TODO: New resource link not known
         new Updater(this).checkForUpdate(newVersion -> {
             final String currentVersion = pluginVersion.contains(" ") ? pluginVersion.split(" ")[0] : pluginVersion;
 
-            ChatUtil.sendConsoleMessage("&8[Health] &bFound a new version: " + newVersion + " (Yours: v" + currentVersion + ")");
-            ChatUtil.sendConsoleMessage("&8[Health] &bDownload it on spigot:");
-            ChatUtil.sendConsoleMessage("&8[Health] &bspigotmc.org/resources/16045");
-        });*/
+            MessageUtil.sendConsoleMessage("&bFound a new version: " + newVersion + " (Yours: v" + currentVersion + ")");
+            MessageUtil.sendConsoleMessage("&bDownload it on spigot:");
+            MessageUtil.sendConsoleMessage("&bspigotmc.org/resources/99340");
+        });
 
         if (!checkVersion()) {
             MessageUtil.sendConsoleMessage("&cThis version of Health only supports the following versions:" + String.join(", ", SUPPORTED_VERSIONS));

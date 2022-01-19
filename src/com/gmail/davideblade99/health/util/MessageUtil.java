@@ -54,7 +54,6 @@ public final class MessageUtil {
      * @param plural   The plural form of the noun
      * @return The correctly formed noun
      */
-    //TODO: usare
     public static String plural(final long amount, final String singular, final String plural) {
         return amount == 1 ? singular : plural;
     }
