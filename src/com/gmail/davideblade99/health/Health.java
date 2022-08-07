@@ -22,7 +22,7 @@ import java.io.File;
 
 public final class Health extends JavaPlugin {
 
-    private final static String[] SUPPORTED_VERSIONS = {"1.8", "1.9", "1.10", "1.11", "1.12", "1.13", "1.14", "1.15", "1.16", "1.17", "1.18"};
+    private final static String[] SUPPORTED_VERSIONS = {"1.8", "1.9", "1.10", "1.11", "1.12", "1.13", "1.14", "1.15", "1.16", "1.17", "1.18", "1.19"};
     private final static FileConfiguration MESSAGES = new YamlConfiguration();
 
     private static Health instance;
