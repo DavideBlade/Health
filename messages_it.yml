@@ -7,6 +7,7 @@ Command only for player: '&cQuesto comando puo'' essere usato solo dai giocatori
 Required survival: '&c&lDevi essere in modalita'' sopravvivenza per usare questo comando.'
 # %number verrà sostituito con il numero delle cotolette o dei cuori impostati.
 Hearts successful: '&b&lCuori impostati a %number.'
+Hearts exceed maximum health: '&c&lIl numero di cuori da rigenerare non può superare la vita massima pari a %number.'
 Cutlets successful: '&b&lCotolette impostate a %number.'
 Regen successful: '&b&lEffetto di rigenerazione impostato per 8 secondi.'
 Max hearts successful: '&b&lNumero massimo di cuori impostato a %number.'

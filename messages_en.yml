@@ -7,6 +7,7 @@ Command only for player: '&cThis command can only be used by players.'
 Required survival: '&c&lYou must be in survival mode to use this command.'
 # %number will be replaced with the number of cutlets or hearts set.
 Hearts successful: '&b&lHearts set to %number.'
+Hearts exceed maximum health: '&c&lThe number of hearts to be restored cannot exceed the maximum health set at %number.'
 Cutlets successful: '&b&lCutlets set to %number.'
 Regen successful: '&b&lRegeneration effect set for 8 seconds.'
 Max hearts successful: '&b&lMaximum number of hearts set to %number.'

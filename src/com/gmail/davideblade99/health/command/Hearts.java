@@ -54,14 +54,14 @@ public final class Hearts extends CommandFramework {
                 }
 
                 final int hearts = (int) (Double.parseDouble(args[0]) * 2);
-                if (hearts >= 1 && hearts <= 20) {
+                if (hearts >= 1 && hearts <= player.getMaxHealth()) {
                     player.setHealth(hearts);
 
                     MessageUtil.sendChatMessage(player, plugin.getMessage("Hearts successful").replace("%number", Integer.toString(hearts / 2)));
 
                     PlayerManager.addCooldown(player);
                 } else
-                    MessageUtil.sendChatMessage(player, plugin.getMessage("Number between 1-10"));
+                    MessageUtil.sendChatMessage(player, plugin.getMessage("Hearts exceed maximum health").replace("%number", Double.toString(player.getMaxHealth())));
 
             } else {
                 if (!player.hasPermission("health.hearts.others")) {
@@ -79,7 +79,7 @@ public final class Hearts extends CommandFramework {
                 }
 
                 final int hearts = (int) (Double.parseDouble(args[0]) * 2);
-                if (hearts >= 1 && hearts <= 20) {
+                if (hearts >= 1 && hearts <= target.getMaxHealth()) {
                     target.setHealth(hearts);
 
                     MessageUtil.sendChatMessage(player, plugin.getMessage("Hearts others successful").replace("%number", Integer.toString(hearts / 2)).replace("%player", target.getName()));
@@ -87,7 +87,7 @@ public final class Hearts extends CommandFramework {
 
                     PlayerManager.addCooldown(player);
                 } else
-                    MessageUtil.sendChatMessage(player, plugin.getMessage("Number between 1-10"));
+                    MessageUtil.sendChatMessage(player, plugin.getMessage("Hearts exceed maximum health").replace("%number", Double.toString(target.getMaxHealth())));
             }
         } else {
             if (args.length == 1)
@@ -104,13 +104,13 @@ public final class Hearts extends CommandFramework {
                 }
 
                 final int hearts = (int) (Double.parseDouble(args[0]) * 2);
-                if (hearts >= 1 && hearts <= 20) {
+                if (hearts >= 1 && hearts <= target.getMaxHealth()) {
                     target.setHealth(hearts);
 
                     MessageUtil.sendChatMessage(sender, plugin.getMessage("Hearts others successful").replace("%number", Integer.toString(hearts / 2)).replace("%player", target.getName()));
                     MessageUtil.sendChatMessage(target, plugin.getMessage("Hearts by other").replace("%number", Integer.toString(hearts / 2)).replace("%player", "console"));
                 } else
-                    MessageUtil.sendChatMessage(sender, plugin.getMessage("Number between 1-10"));
+                    MessageUtil.sendChatMessage(sender, plugin.getMessage("Hearts exceed maximum health").replace("%number", Double.toString(target.getMaxHealth())));
             }
         }
         return true;
