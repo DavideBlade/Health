@@ -44,7 +44,7 @@ public final class Healme extends CommandFramework {
             return true;
         }
 
-        player.setHealth(20);
+        player.setHealth(player.getMaxHealth());
 
         PlayerManager.addCooldown(player);
 
