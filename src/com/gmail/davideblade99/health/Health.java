@@ -122,6 +122,7 @@ public final class Health extends JavaPlugin {
         getCommand("Health").setExecutor(new com.gmail.davideblade99.health.command.Health(this));
         getCommand("Hearts").setExecutor(new Hearts(this));
         getCommand("Regen").setExecutor(new Regen(this));
+        getCommand("MaxHearts").setExecutor(new MaxHearts(this));
     }
 
     public static Health getInstance() {

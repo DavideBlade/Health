@@ -17,6 +17,9 @@ commands:
   hearts:
     usage: /<command> [hearts to be set] [player]
     description: Set hearts of other players.
+  maxhearts:
+    usage: /<command> <hearts to be set> [player]
+    description: Sets the player's maximum number of hearts.
   cutlets:
     usage: /<command> [cutlets to be set] [player]
     description: Set cutlets of other players.
@@ -34,9 +37,11 @@ permissions:
       health.healme: true
       health.feedme: true
       health.hearts: true
+      health.maxhearts: true
       health.cutlets: true
       health.regen: true
       health.hearts.others: true
+      health.maxhearts.others: true
       health.cutlets.others: true
       health.regen.others: true
   health.healme:
@@ -50,6 +55,14 @@ permissions:
     default: op
   health.hearts.others:
     description: Allows setting hearts to other players with the command /hearts.
+    default: op
+    children:
+      health.hearts: true
+  health.maxhearts:
+    description: Gives access to /maxhearts command.
+    default: op
+  health.maxhearts.others:
+    description: Allows setting the maximum number of hearts to other players with the /maxhearts command.
     default: op
     children:
       health.hearts: true
