@@ -1,0 +1,42 @@
+# Użyj & dla kodów kolorów. Listę kolorów można znaleźć tutaj: http://goo.gl/VCscSk
+Healme successful: '&b&lZostałeś uleczony.'
+Feedme successful: '&b&lZostałeś nakarmiony.'
+# Gdy polecenie może być wykonane tylko przez graczy.
+Command only for player: '&cTa komenda może być użyta tylko przez graczy.'
+# Gdy polecenie może być wykonane tylko w trybie przetrwania.
+Required survival: '&c&lMusisz być w trybie przetrwania, aby użyć tej komendy.'
+# %number zostanie zastąpione liczbą ustawionych kotletów lub serc.
+Hearts successful: '&b&lŻycia ustawione do %number.'
+Hearts exceed maximum health: '&c&lLiczba serc do przywrócenia nie może przekraczać ustawionej maksymalnej liczby serc %number.'
+Cutlets successful: '&b&lKotlety ustawione na %number.'
+Regen successful: '&b&lEfekt regenracji został nadany na 8 sekund.'
+Max hearts successful: '&b&lMaksymalna liczba serc została zmieniona na %number.'
+Number between 1-10: '&c&lLiczba musi być pomiędzy 1-10!'
+Number between 1-512: '&c&lLiczba musi być pomiędzy 1-512!'
+# %player zostanie zastąpione nazwą gracza.
+Hearts others successful: '&b&lSerca %player zostały ustawione do %number.'
+Cutlets others successful: '&b&lKotlety %player zostały ustawione na %number.'
+Regen others successful: '&b&lEfekt regenracji został nadany graczowi %player.'
+Max hearts others successful: '&b&lLiczba serc u gracza %player została ustawiona do %number.'
+Hearts by other: '&b&lTwoja liczba serc została ustawiona do liczby %number przez %player.'
+Cutlets by other: '&b&lTwoje kotlety zostały ustawione na %number przez %player.'
+Regen by other: '&b&lOtrzymałeś efekt regenracji nadany przez %player.'
+Max hearts by other: '&b&lMaksymalna liczba serc została ustawiona na %number przez %player.'
+Hearts usage: '&c&lUżyj /hearts <serca> [gracz].'
+Cutlets usage: '&c&lUżyj /cutlets <Kotlety> [gracz].'
+Max hearts usage: '&c&lUżyj /maxhearts <maxserca> [gracz].'
+Player not in survival: '&c&l%player musi być w trybie przetrwania!'
+# Gdy wymagane jest określenie gracza.
+Select player: '&c&lMusisz wybrać gracza.'
+# Gdy gracz nie jest online.
+Player not found: '&c&l%player nie jest online!'
+# Gdy gracz nie wprowadzi liczby całkowitej.
+Only number: '&c&lWartość musi być wyrażona w liczbach!'
+# Gdy gracz nie ma pozwolenia.
+No permission: '&c&lNie masz permisji do tej komendy.'
+# Gdy czas odnowienia jeszcze się nie skończył.
+# %time to pozostały czas odnowienia.
+# %type zmienia słowo na liczbę mnogą lub pojedynczą w zależności od czasu odnowienia (patrz "Seconds" i "Second").
+Cooldown not finished: '&cMusisz poczekać %time %type zanim użyjesz komendy ponownie.'
+Second: 'sekund'
+Seconds: 'sekundy'

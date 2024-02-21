@@ -1,4 +1,4 @@
-# Language of messages. At the moment there is only "it" and "en".
+# Language of messages. At the moment there is only "it", "en" and "pl".
 Locale: en
 # The duration, in seconds, of the cooldown that players will have to wait before using a command again.
 # The /maxhearts command is not limited.
